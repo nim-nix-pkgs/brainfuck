@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-brainfuck-master.flake = false;
+  inputs.src-brainfuck-master.ref   = "refs/heads/master";
   inputs.src-brainfuck-master.owner = "def-";
-  inputs.src-brainfuck-master.ref   = "master";
   inputs.src-brainfuck-master.repo  = "nim-brainfuck.git";
   inputs.src-brainfuck-master.type  = "github";
   
