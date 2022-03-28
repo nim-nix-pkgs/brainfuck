@@ -11,7 +11,6 @@
   inputs.src-brainfuck-master.ref   = "refs/heads/master";
   inputs.src-brainfuck-master.owner = "def-";
   inputs.src-brainfuck-master.repo  = "nim-brainfuck";
-  inputs.src-brainfuck-master.dir   = "";
   inputs.src-brainfuck-master.type  = "github";
   
   inputs."docopt".owner = "nim-nix-pkgs";
