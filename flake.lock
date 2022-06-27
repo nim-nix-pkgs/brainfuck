@@ -1,11 +1,41 @@
 {
   "nodes": {
-    "docopt": {
+    "brainfuck-master": {
       "inputs": {
+        "docopt": "docopt",
         "flakeNimbleLib": [
           "flakeNimbleLib"
         ],
         "nixpkgs": [
+          "nixpkgs"
+        ],
+        "src-brainfuck-master": "src-brainfuck-master"
+      },
+      "locked": {
+        "dir": "master",
+        "lastModified": 1652366390,
+        "narHash": "sha256-jpLyhB8dymdB6ljrxFRPdemohiA+MNa+8JsWO9LSp6I=",
+        "owner": "nim-nix-pkgs",
+        "repo": "brainfuck",
+        "rev": "831ba9146a941fe1b2270fb43d22763bcf07bc8f",
+        "type": "github"
+      },
+      "original": {
+        "dir": "master",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "brainfuck",
+        "type": "github"
+      }
+    },
+    "docopt": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "brainfuck-master",
+          "flakeNimbleLib"
+        ],
+        "nixpkgs": [
+          "brainfuck-master",
           "nixpkgs"
         ],
         "regex": "regex",
@@ -13,11 +43,11 @@
       },
       "locked": {
         "dir": "v0_6_8",
-        "lastModified": 1652366445,
+        "lastModified": 1648428548,
         "narHash": "sha256-MYw3J6Hg3j9ntP3qkVAu/vYRgzCBgKL62D2dRL75Ot4=",
         "owner": "nim-nix-pkgs",
         "repo": "docopt",
-        "rev": "1cf26676df8ca638e636387a76622d64dcca19c7",
+        "rev": "b3b8b4a5c53c5bed4a848e6b3ebaa0b2ab9070f3",
         "type": "github"
       },
       "original": {
@@ -64,10 +94,12 @@
     "regex": {
       "inputs": {
         "flakeNimbleLib": [
+          "brainfuck-master",
           "docopt",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
+          "brainfuck-master",
           "docopt",
           "nixpkgs"
         ],
@@ -93,10 +125,9 @@
     },
     "root": {
       "inputs": {
-        "docopt": "docopt",
+        "brainfuck-master": "brainfuck-master",
         "flakeNimbleLib": "flakeNimbleLib",
-        "nixpkgs": "nixpkgs",
-        "src-brainfuck-master": "src-brainfuck-master"
+        "nixpkgs": "nixpkgs"
       }
     },
     "src-brainfuck-master": {
@@ -170,11 +201,13 @@
     "unicodedb": {
       "inputs": {
         "flakeNimbleLib": [
+          "brainfuck-master",
           "docopt",
           "regex",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
+          "brainfuck-master",
           "docopt",
           "regex",
           "nixpkgs"
