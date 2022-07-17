@@ -13,11 +13,11 @@
       },
       "locked": {
         "dir": "master",
-        "lastModified": 1656748238,
-        "narHash": "sha256-/SV27PqmNDWjUSlVoWLE6vXfFD6laFS2m//qTk4NSII=",
+        "lastModified": 1657154439,
+        "narHash": "sha256-lDaXQel8ncNhQcBQwMKEieLg5hVU1ZDgmTFQw0KqCFM=",
         "owner": "nim-nix-pkgs",
         "repo": "brainfuck",
-        "rev": "ca021dd66dbfb2fa976c33d84bc848d6a7faccbc",
+        "rev": "d643c2e38c59683c8d1fb47815ee0d24f504aae3",
         "type": "github"
       },
       "original": {
