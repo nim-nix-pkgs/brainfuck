@@ -13,11 +13,11 @@
       },
       "locked": {
         "dir": "master",
-        "lastModified": 1668750730,
-        "narHash": "sha256-ymBi3roU0OHDTsz5LvJL1EoDL7azKfTY5o+B5sqY8A4=",
+        "lastModified": 1668756217,
+        "narHash": "sha256-FH/MOG+e2yF3MZbp3l2vaUBdENmr9ssfkQnIMAZ/yjo=",
         "owner": "nim-nix-pkgs",
         "repo": "brainfuck",
-        "rev": "540d3a6c361c758e462719bfd95e567e7ee8be8b",
+        "rev": "f1627e8b95f9ee53a31b83b95f75d24afb520ca8",
         "type": "github"
       },
       "original": {
@@ -275,11 +275,11 @@
       },
       "locked": {
         "dir": "v0_20_0",
-        "lastModified": 1668750538,
-        "narHash": "sha256-47/VFFxDrOI4lL8pq1NeleWFHuPpV1feCfUfA8VOczE=",
+        "lastModified": 1668756078,
+        "narHash": "sha256-HQz+g+KyxgmLT95JEM5o8MRHNpzV+8e1yJKDcHCRNqA=",
         "owner": "nim-nix-pkgs",
         "repo": "regex",
-        "rev": "f0f9d4e094fa62d85ac5bd3cbf837a6d3cff0132",
+        "rev": "ff6388b827994ea7fe9e70f81756574526d21724",
         "type": "github"
       },
       "original": {
