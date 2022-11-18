@@ -13,11 +13,11 @@
       },
       "locked": {
         "dir": "master",
-        "lastModified": 1667335892,
-        "narHash": "sha256-x5jVg1ARgsh0uRlVHzmFJmG5GuwnwTE2LQY4Nbg6vJs=",
+        "lastModified": 1668750730,
+        "narHash": "sha256-ymBi3roU0OHDTsz5LvJL1EoDL7azKfTY5o+B5sqY8A4=",
         "owner": "nim-nix-pkgs",
         "repo": "brainfuck",
-        "rev": "96557313bbfcb79b4d4f0f2695d06c3fc550e6e3",
+        "rev": "540d3a6c361c758e462719bfd95e567e7ee8be8b",
         "type": "github"
       },
       "original": {
@@ -275,11 +275,11 @@
       },
       "locked": {
         "dir": "v0_20_0",
-        "lastModified": 1667335781,
-        "narHash": "sha256-F8+HTS8qk2sDQwmKqYNgKm4Gni9s1EbKe3UffFT947U=",
+        "lastModified": 1668750538,
+        "narHash": "sha256-47/VFFxDrOI4lL8pq1NeleWFHuPpV1feCfUfA8VOczE=",
         "owner": "nim-nix-pkgs",
         "repo": "regex",
-        "rev": "c06767a0305e62be5ba93aada337c59aaf888ed8",
+        "rev": "f0f9d4e094fa62d85ac5bd3cbf837a6d3cff0132",
         "type": "github"
       },
       "original": {
@@ -348,19 +348,19 @@
         "type": "github"
       }
     },
-    "src-unicodedb-v0_10_0": {
+    "src-unicodedb-0_11_1": {
       "flake": false,
       "locked": {
-        "lastModified": 1635061637,
-        "narHash": "sha256-qt2pyiGrvJXSes+E0eubx98mrF+jTudPD6hkUXjw0/4=",
+        "lastModified": 1667709069,
+        "narHash": "sha256-bLZADqf0bIs6Ms2cvYa0CxVytYxnxgW8k9RnzsKKzE4=",
         "owner": "nitely",
         "repo": "nim-unicodedb",
-        "rev": "675407fa4b6e701ebf9f94e5370ce18c3af40cc3",
+        "rev": "7d3b449c44730804a3c9b4f4f3dbeca028212d05",
         "type": "github"
       },
       "original": {
         "owner": "nitely",
-        "ref": "refs/tags/v0.10.0",
+        "ref": "refs/tags/0.11.1",
         "repo": "nim-unicodedb",
         "type": "github"
       }
@@ -379,19 +379,19 @@
           "regex",
           "nixpkgs"
         ],
-        "src-unicodedb-v0_10_0": "src-unicodedb-v0_10_0"
+        "src-unicodedb-0_11_1": "src-unicodedb-0_11_1"
       },
       "locked": {
-        "dir": "v0_10_0",
-        "lastModified": 1667330002,
-        "narHash": "sha256-l7c5ipBROg38RqwRiFEURBJa+ggkpX/wT8lISrOvkpA=",
+        "dir": "0_11_1",
+        "lastModified": 1668749120,
+        "narHash": "sha256-X+LjWZu0wC+pEFfxPvrpCUBN9Xy0o1+QS6wcayq+b1g=",
         "owner": "nim-nix-pkgs",
         "repo": "unicodedb",
-        "rev": "cfa7e3d68b13ac8316fbdaafa8a9ddda76b528ab",
+        "rev": "405408cf062791bda03f3f672a0ec24adab203e4",
         "type": "github"
       },
       "original": {
-        "dir": "v0_10_0",
+        "dir": "0_11_1",
         "owner": "nim-nix-pkgs",
         "ref": "master",
         "repo": "unicodedb",
